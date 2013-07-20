@@ -38,6 +38,7 @@
 		5B72F526179AC838005EA3D0 /* Photo+MKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B72F525179AC838005EA3D0 /* Photo+MKAnnotation.m */; };
 		5B72F529179AC8FF005EA3D0 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B72F528179AC8FF005EA3D0 /* Photo.m */; };
 		5B72F52B179AD1DA005EA3D0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B72F52A179AD1DA005EA3D0 /* MapKit.framework */; };
+		5B72F52E179AE8F2005EA3D0 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B72F52D179AE8F2005EA3D0 /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,8 @@
 		5B72F527179AC8FF005EA3D0 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		5B72F528179AC8FF005EA3D0 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		5B72F52A179AD1DA005EA3D0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5B72F52C179AE8F2005EA3D0 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		5B72F52D179AE8F2005EA3D0 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				5B72F51C179ABEF5005EA3D0 /* PhotosByPhotographerMapViewController.m */,
 				5B72F51E179ABF5F005EA3D0 /* DemoPhotographerMapViewController.h */,
 				5B72F51F179ABF5F005EA3D0 /* DemoPhotographerMapViewController.m */,
+				5B72F52C179AE8F2005EA3D0 /* PhotoViewController.h */,
+				5B72F52D179AE8F2005EA3D0 /* PhotoViewController.m */,
 				5B65A61C16EBB7D600D9D358 /* Photomania.xcdatamodeld */,
 				5B72F527179AC8FF005EA3D0 /* Photo.h */,
 				5B72F528179AC8FF005EA3D0 /* Photo.m */,
@@ -300,6 +305,7 @@
 				5B72F523179AC80C005EA3D0 /* Photographer+MKAnnotation.m in Sources */,
 				5B72F526179AC838005EA3D0 /* Photo+MKAnnotation.m in Sources */,
 				5B72F529179AC8FF005EA3D0 /* Photo.m in Sources */,
+				5B72F52E179AE8F2005EA3D0 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

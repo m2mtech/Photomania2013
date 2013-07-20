@@ -36,4 +36,27 @@
     [self reload];
 }
 
+- (void)mapView:(MKMapView *)mapView
+ annotationView:(MKAnnotationView *)view
+calloutAccessoryControlTapped:(UIControl *)control
+{
+    [self performSegueWithIdentifier:@"setPhotographer:" sender:view];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"setPhotographer:"]) {
+        if ([sender isKindOfClass:[MKAnnotationView class]]) {
+            MKAnnotationView *aView = (MKAnnotationView *)sender;
+            if ([aView.annotation isKindOfClass:[Photographer class]]) {
+                Photographer *photographer = (Photographer *)aView.annotation;
+                if ([segue.destinationViewController respondsToSelector:@selector(setPhotographer:)]) {
+                    [segue.destinationViewController performSelector:@selector(setPhotographer:)
+                                                          withObject:photographer];
+                }
+            }
+        }
+    }
+}
+
 @end
