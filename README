@@ -1,6 +1,6 @@
 Photomania Demo of cs193p lecture (Winter 2013)
 
-written in Xcode 4.6 for iOS6.1+
+written in Xcode 4.6.3 for iOS6.1+
 
 
 To be able to run this app please set the FlickrAPIKey in FlickrAPIKey.h
@@ -12,4 +12,4 @@ e.g.:
 A free FlickrAPIKey is available at
    http://www.flickr.com/services/api/misc.api_keys.html
 
-In addition, you have to create a provisioning profile which allows to use the iCloude functionallity.
+In addition, you have to create a provisioning profile which allows to use the iCloud functionallity.

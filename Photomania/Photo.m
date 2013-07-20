@@ -2,7 +2,7 @@
 //  Photo.m
 //  Photomania
 //
-//  Created by Martin Mandl on 09.03.13.
+//  Created by Martin Mandl on 20.07.13.
 //  Copyright (c) 2013 m2m server software gmbh. All rights reserved.
 //
 
@@ -12,10 +12,13 @@
 
 @implementation Photo
 
-@dynamic title;
-@dynamic subtitle;
 @dynamic imageURL;
+@dynamic subtitle;
+@dynamic title;
 @dynamic unique;
+@dynamic latitude;
+@dynamic longitude;
+@dynamic thumbnailURLString;
 @dynamic whoTook;
 
 @end
